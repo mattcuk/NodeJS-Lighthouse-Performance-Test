@@ -1,5 +1,5 @@
-# NodeJS based Lighthouse Performance Test for Web Pages
-Basic lighthouse (web vitals) performance testing script, written in Node.JS and runs on Windows without modifications (can run on other platforms if you change a few things, like the Chrome binary path).
+# NodeJS-based Lighthouse Test for Web Pages
+Basic lighthouse (core web vitals) performance testing script, written in Node.JS and runs on Windows without modifications (can run on other platforms if you change a few things, like the Chrome binary path).
 
 It'll complete multiple runs, outputting results into a CSV including a row for average, min and max values.
 
