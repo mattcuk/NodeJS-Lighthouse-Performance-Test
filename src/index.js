@@ -8,9 +8,7 @@ const reportFilename = 'report.csv';
 
 async function runLighthouse(url) {
 
-  // Uncomment this (and the args in the puppeteer section) to enable any custom extensions you need to load into Chrome
-  // const extensionPath = 'c:\\myBrowserExtension';
-
+  // Uncomment the args section to enable any custom extensions you need to load into Chrome
   const browser = await puppeteer.launch({
     headless: true, // Set to false for a visible browser
     executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
